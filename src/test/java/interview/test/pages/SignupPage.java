@@ -76,12 +76,8 @@ public class SignupPage extends BaseClass {
 
     @FindBy(xpath = "/html/body/app-root/div/div/div[1]/app-auth/app-auth-container/div/div/div/div/div[1]/app-signup/div/div/form/div[5]")
     WebElement ageLimitedErr;
-//
-//    @FindBy()
-//    WebElement ;
-//
-//    @FindBy()
-//    WebElement ;
+
+
 
     public void inputEmail(String string) {
         signupEmailField.sendKeys(string);
@@ -130,7 +126,6 @@ public class SignupPage extends BaseClass {
         signupPostcodeField.sendKeys(string);
     }
     public void clickCreateAccBtn() {
-        //signupCreateAccButton.click();
         signupCreateAccButton.sendKeys(ENTER);
     }
     //error messages

@@ -143,7 +143,7 @@ public class SignupTests extends BaseClass {
             signup.inputPostcode("456");
             signup.clickCreateAccBtn();
             Thread.sleep(2000);
-            assertPageTitle("Play Lotto Online | Buy Lottery Tickets Online | Lottoz");
+            assertPageTitle(mainPageTitle);
             //logout from account
             logout();
             //creating another acc with same email

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceab5afb-4129-4ba2-8d7e-5f5427610457" name="Default" comment="" />
+    <list default="true" id="ceab5afb-4129-4ba2-8d7e-5f5427610457" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/interview/test/pages/SignupPage.java" afterPath="$PROJECT_DIR$/src/test/java/interview/test/pages/SignupPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/interview/test/tests/SignupTests.java" afterPath="$PROJECT_DIR$/src/test/java/interview/test/tests/SignupTests.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +21,11 @@
       <file leaf-file-name="BaseClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/interview/test/pages/BaseClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+            <state relative-caret-position="484">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#889#905#0" expanded="true" />
                 <element signature="method#getSelect#0;class#BaseClass#0" expanded="false" />
                 <element signature="method#getScreen#0;class#BaseClass#0" expanded="false" />
                 <element signature="method#assertPageTitle#0;class#BaseClass#0" expanded="false" />
@@ -28,23 +34,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignupPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SignupPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/interview/test/pages/SignupPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="-9">
+              <caret line="105" column="5" lean-forward="true" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4400#4401#0" expanded="true" />
+                <element signature="e#4453#4454#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignupTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SignupTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/interview/test/tests/SignupTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            <state relative-caret-position="240">
+              <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,6 +69,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -71,8 +82,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/interview/test/pages/MyAccountPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/interview/test/pages/SignupPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/interview/test/tests/SignupTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/interview/test/pages/SignupPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/interview/test/pages/BaseClass.java" />
       </list>
     </option>
@@ -90,12 +101,13 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="173" />
-    <option name="y" value="31" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="176" />
+    <option name="y" value="28" />
     <option name="width" value="1257" />
     <option name="height" value="804" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -465,7 +477,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="173" y="31" width="1257" height="804" extended-state="1" />
+    <frame x="176" y="28" width="1257" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -477,7 +489,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10578279" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -512,6 +524,7 @@
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#889#905#0" expanded="true" />
             <element signature="method#getSelect#0;class#BaseClass#0" expanded="false" />
             <element signature="method#getScreen#0;class#BaseClass#0" expanded="false" />
             <element signature="method#assertPageTitle#0;class#BaseClass#0" expanded="false" />
@@ -553,6 +566,7 @@
           <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#889#905#0" expanded="true" />
             <element signature="method#getSelect#0;class#BaseClass#0" expanded="false" />
             <element signature="method#getScreen#0;class#BaseClass#0" expanded="false" />
             <element signature="method#assertPageTitle#0;class#BaseClass#0" expanded="false" />
@@ -594,6 +608,7 @@
           <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#889#905#0" expanded="true" />
             <element signature="method#getSelect#0;class#BaseClass#0" expanded="false" />
             <element signature="method#getScreen#0;class#BaseClass#0" expanded="false" />
             <element signature="method#assertPageTitle#0;class#BaseClass#0" expanded="false" />
@@ -635,6 +650,7 @@
           <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#889#905#0" expanded="true" />
             <element signature="method#getSelect#0;class#BaseClass#0" expanded="false" />
             <element signature="method#getScreen#0;class#BaseClass#0" expanded="false" />
             <element signature="method#assertPageTitle#0;class#BaseClass#0" expanded="false" />
@@ -668,6 +684,7 @@
           <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#889#905#0" expanded="true" />
             <element signature="method#getSelect#0;class#BaseClass#0" expanded="false" />
             <element signature="method#getScreen#0;class#BaseClass#0" expanded="false" />
             <element signature="method#assertPageTitle#0;class#BaseClass#0" expanded="false" />
@@ -708,6 +725,7 @@
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#889#905#0" expanded="true" />
             <element signature="method#getSelect#0;class#BaseClass#0" expanded="false" />
             <element signature="method#getScreen#0;class#BaseClass#0" expanded="false" />
             <element signature="method#assertPageTitle#0;class#BaseClass#0" expanded="false" />
@@ -765,12 +783,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/interview/test/pages/BaseClass.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/interview/test/tests/SignupTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+        <state relative-caret-position="240">
+          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/interview/test/pages/BaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#889#905#0" expanded="true" />
             <element signature="method#getSelect#0;class#BaseClass#0" expanded="false" />
             <element signature="method#getScreen#0;class#BaseClass#0" expanded="false" />
             <element signature="method#assertPageTitle#0;class#BaseClass#0" expanded="false" />
@@ -780,20 +809,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/interview/test/pages/SignupPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="-9">
+          <caret line="105" column="5" lean-forward="true" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/interview/test/tests/SignupTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4400#4401#0" expanded="true" />
+            <element signature="e#4453#4454#0" expanded="true" />
           </folding>
         </state>
       </provider>
