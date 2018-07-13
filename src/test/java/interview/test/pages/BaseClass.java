@@ -39,34 +39,38 @@ public class BaseClass {
         driver.quit();
     }
 
+    //general variables
+    protected String domain = "https://www.lottoz.com";
+    protected String random = String.valueOf((int) (Math.random() * 10000));
+    protected String mail = "autotestuser" + random + "test@morpheusgames.com";
+
     private JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 
-    //general variables
-    public String domain = "https://www.lottoz.com";
-    public String random = String.valueOf((int) (Math.random() * 10000));
-    public String mail = "autotestuser" + random + "test@morpheusgames.com";
-
     //general methods
-    public Select select;
+    protected Select select;
     public Select getSelect(WebElement element) {
         select = new Select(element);
         return select;
     }
 
-    public void getScreen(String name) throws Exception {
+    protected void getScreen(String name) throws Exception {
         File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         FileHandler.copy(srcFile, new File("/Users/admin/Desktop/" + name + ".jpg"));
     }
 
-    public void assertPageTitle(String string) {
+    protected void assertPageTitle(String string) {
         String actual = driver.getTitle();
         Assert.assertTrue(actual.contains(string));
     }
 
-    //logout method
-    public void logout() {
+    protected void logout() {
         jsExecutor.executeScript("sessionStorage.clear();");
         jsExecutor.executeScript("localStorage.clear();");
         driver.navigate().refresh();
     }
+
+    //pages titles
+    protected String signupPageTitle = "Registration | Create your Lottoz Account";
+    protected String mainPageTitle = "Play Lotto Online | Buy Lottery Tickets Online | Lottoz";
+
 }

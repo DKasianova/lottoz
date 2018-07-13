@@ -6,9 +6,6 @@ import org.junit.Test;
 
 public class SignupTests extends BaseClass {
 
-    String registrationPageTitle = "Registration | Create your Lottoz Account";
-    String mainPageTitle = "Play Lotto Online | Buy Lottery Tickets Online | Lottoz";
-
 
     //positive test
     @Test
@@ -16,7 +13,7 @@ public class SignupTests extends BaseClass {
         try {
             driver.navigate().to(domain + "/signup");
             Thread.sleep(2000);
-            assertPageTitle(registrationPageTitle);
+            assertPageTitle(signupPageTitle);
             signup.inputEmail(mail);
             signup.inputPassword("12345678PASS");
             signup.inputName("Name");
@@ -44,7 +41,7 @@ public class SignupTests extends BaseClass {
         try {
             driver.navigate().to(domain + "/signup");
             Thread.sleep(2000);
-            assertPageTitle(registrationPageTitle);
+            assertPageTitle(signupPageTitle);
             signup.inputEmail(mail);
             signup.inputPassword("12345678PASS");
             signup.inputName("Name");
@@ -72,7 +69,7 @@ public class SignupTests extends BaseClass {
         try {
             driver.navigate().to(domain + "/signup");
             Thread.sleep(2000);
-            assertPageTitle(registrationPageTitle);
+            assertPageTitle(signupPageTitle);
             signup.clickCreateAccBtn();
             //check error messages is present
             signup.assertEmailFieldErr("Please provide a valid email address");
@@ -106,7 +103,7 @@ public class SignupTests extends BaseClass {
         try {
             driver.navigate().to(domain + "/signup");
             Thread.sleep(2000);
-            assertPageTitle(registrationPageTitle);
+            assertPageTitle(signupPageTitle);
             signup.inputEmail("testmail");
             signup.inputPassword("12345678PASS");
             signup.inputName("Name");
@@ -132,7 +129,7 @@ public class SignupTests extends BaseClass {
         try {
             driver.navigate().to(domain + "/signup");
             Thread.sleep(2000);
-            assertPageTitle(registrationPageTitle);
+            assertPageTitle(signupPageTitle);
             signup.inputEmail(mail);
             signup.inputPassword("12345678PASS");
             signup.inputName("Name");
@@ -149,7 +146,7 @@ public class SignupTests extends BaseClass {
             //creating another acc with same email
             driver.navigate().to(domain + "/signup");
             Thread.sleep(2000);
-            assertPageTitle(registrationPageTitle);
+            assertPageTitle(signupPageTitle);
             signup.inputEmail(mail);
             signup.inputPassword("12345678PASS");
             signup.inputName("Name");
@@ -172,7 +169,7 @@ public class SignupTests extends BaseClass {
         try {
             driver.navigate().to(domain + "/signup");
             Thread.sleep(2000);
-            assertPageTitle(registrationPageTitle);
+            assertPageTitle(signupPageTitle);
             signup.inputEmail(mail);
             signup.inputPassword("12345P");
             signup.inputName("Name");
@@ -199,7 +196,7 @@ public class SignupTests extends BaseClass {
         try {
             driver.navigate().to(domain + "/signup");
             Thread.sleep(2000);
-            assertPageTitle(registrationPageTitle);
+            assertPageTitle(signupPageTitle);
             signup.inputEmail(mail);
             signup.inputPassword("12345678");
             signup.inputName("Name");

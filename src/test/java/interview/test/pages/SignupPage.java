@@ -82,20 +82,11 @@ public class SignupPage extends BaseClass {
     public void inputEmail(String string) {
         signupEmailField.sendKeys(string);
     }
-    public void clearEmailField() {
-        signupEmailField.clear();
-    }
     public void inputPassword(String string) {
         signupPassField.sendKeys(string);
     }
-    public void clearPasswordFIeld() {
-        signupPassField.clear();
-    }
     public void inputName(String string) {
         signupNameField.sendKeys(string);
-    }
-    public void clearNameField() {
-        signupNameField.clear();
     }
     public void inputSurname(String string) {
         signupSurnameField.sendKeys(string);
