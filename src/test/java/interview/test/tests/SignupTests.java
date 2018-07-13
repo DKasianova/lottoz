@@ -3,9 +3,7 @@ package interview.test.tests;
 import interview.test.pages.BaseClass;
 import org.junit.Test;
 
-
 public class SignupTests extends BaseClass {
-
 
     //positive test
     @Test
@@ -217,5 +215,6 @@ public class SignupTests extends BaseClass {
             getScreen("test_userCantSignupWhenPasswordOnlyFromNumbers");
         }
     }
+
 }
 

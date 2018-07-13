@@ -49,7 +49,7 @@ public class SignupPage extends BaseClass {
     @FindBy(id = "signup-postcode")
     WebElement signupPostcodeField;
 
-    @FindBy(xpath = "/html/body/app-root/div/div/div[1]/app-auth/app-auth-container/div/div/div/div/div[1]/app-signup/div/div/form/button")
+    @FindBy(xpath = "//div[contains(@class, 'signup-component')]//button")
     WebElement signupCreateAccButton;
 
     //error messages
@@ -160,11 +160,5 @@ public class SignupPage extends BaseClass {
         String act = ageLimitedErr.getText();
         Assert.assertTrue(act.contains(string));
     }
-
-
-
-
-
-
 
 }
